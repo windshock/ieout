@@ -4,7 +4,7 @@
 
 ## Features
 
-### IEOut (Main Tool: `ie.py`)
+### IEOut (Main Tool: `ieout.py`)
 - Detects processes using Internet Explorer-related DLLs.
 - Sends notifications to alert users about detected processes.
 
@@ -17,7 +17,7 @@
 ## Requirements
 
 - Python 3.x
-- `plyer` for notifications (used in `ie.py`)
+- `plyer` for notifications (used in `ieout.py`)
 - `psutil` for process monitoring
 - `mitmproxy` for HTTP/HTTPS proxy integration (used in `ievultest.py`)
 - `proxinjector` for executing and testing target programs (used in `ievultest.py`)
@@ -46,11 +46,11 @@
 
 ## Usage
 
-### IEOut (`ie.py`)
+### IEOut (`ieout.py`)
 
 1. Run the tool to detect processes using Internet Explorer-related components:
    ```bash
-   python ie.py
+   python ieout.py
    ```
 
 2. The tool will monitor running processes, check if any are using Internet Explorer-related components, and trigger notifications for detected processes.
@@ -77,7 +77,7 @@
 
 - To run the detection tool:
    ```bash
-   python ie.py
+   python ieout.py
    ```
 
 - To run the test suite:
